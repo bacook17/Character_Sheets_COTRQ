@@ -1,5 +1,10 @@
 all: sota celadin korth macaw zor zeed merry
 
+install:
+	-git submodule init
+	-git submodule update
+	-cd dungeon-sheets && make install && cd ..
+
 clobber:
 	-rm *.pdf
 
