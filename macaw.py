@@ -5,7 +5,7 @@ sheet by running ``makesheets`` from the command line.
 
 """
 
-dungeonsheets_version = "0.9.0"
+dungeonsheets_version = "0.9.2"
 
 name = "Ma'caw"
 player_name = "Ashley"
@@ -32,14 +32,18 @@ charisma = 11
 
 # Select what skills you're proficient with
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
-skill_proficiencies = ('animal handling', 'athletics', 'deception', 'nature',
-                       'perception', 'sleight of hand', 'stealth', 'survival')
+skill_proficiencies = ('animal handling', 'athletics', 'deception', 'nature', 'perception', 'sleight of hand', 'stealth', 'survival')
 
-# Named features / feats that aren't part of your classes,
-# race, or background. Also include Eldritch Invocations.
+# Any skills you have "expertise" (Bard/Rogue) in
+skill_expertise = []
+
+# Named features / feats that aren't part of your classes, race, or background.
+# Also include Eldritch Invocations and features you make multiple selection of
+# (like Maneuvers for Fighter, Metamagic for Sorcerors, Trick Shots for
+# Gunslinger, etc.)
 # Example:
-# features = ('Tavern Brawler',)  # take the optional Feat from PHB
-features = ()
+# features = ('Tavern Brawler',) # take the optional Feat from PHB
+features = []
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -62,13 +66,13 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Longbow", "Dagger", "Blunderbuss"] # Example: ('shortsword', 'longsword')
-magic_items = []  # Example: ('ring of protection',)
+weapons = ["Longbow", "Dagger", "Blunderbuss"]  # Example: ('shortsword', 'longsword')
+magic_items = ['Decanter of Endless Water', 'Tooth of Animal Friendship',
+               "Cape of the Mountebank"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
-equipment = """Explorer's pack. Cloack of billowing. Decanter of Endless Water.
-Wolf's Tooth. Silver Necklace. Hunting Trap. Musical Instrument."""
+equipment = """Explorer's pack. Silver Necklace. Hunting Trap. Musical Instrument."""
 
 attacks_and_spellcasting = """Arrows: d12
 
@@ -106,21 +110,4 @@ flaws = """
 Don't save others
 """
 
-features_and_traits = """
-*Expert Forgery
-
-*Mimicry
-
-*Wanderer
-
-*Favored Enemy: Beasts. ADV on survival to track, extra damage.
-
-*Natural Explorer: Ignore difficult terrain. ADV on initiative.
-On first turn in combat, ADV versus creatures that haven't acted.
-
--Traveling for 1+ hours: Difficult terrain doesn't slow your group. Your group
-can't become lost except by magical means. Remain alert to danger even if preoccupied.
-If traveling alone, can move stealthily at normal pace. When you forage, find
-2x food as normal. When tracking other creatures, you learn exact number, sizes,
-and how long ago they passed through the area.
-"""
+features_and_traits = """"""

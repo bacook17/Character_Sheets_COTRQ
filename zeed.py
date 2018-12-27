@@ -5,7 +5,7 @@ sheet by running ``makesheets`` from the command line.
 
 """
 
-dungeonsheets_version = "0.9.0"
+dungeonsheets_version = "0.9.2"
 
 name = "Zeed"
 player_name = "Tarraneh"
@@ -34,11 +34,16 @@ charisma = 11
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
 skill_proficiencies = ('arcana', 'history', 'medicine', 'persuasion')
 
-# Named features / feats that aren't part of your classes,
-# race, or background. Also include Eldritch Invocations.
+# Any skills you have "expertise" (Bard/Rogue) in
+skill_expertise = []
+
+# Named features / feats that aren't part of your classes, race, or background.
+# Also include Eldritch Invocations and features you make multiple selection of
+# (like Maneuvers for Fighter, Metamagic for Sorcerors, Trick Shots for
+# Gunslinger, etc.)
 # Example:
-# features = ('Tavern Brawler',)  # take the optional Feat from PHB
-features = ()
+# features = ('Tavern Brawler',) # take the optional Feat from PHB
+features = []
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -61,12 +66,12 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Talons", "Warhammer", "Light crossbow"] # Example: ('shortsword', 'longsword')
-magic_items = []  # Example: ('ring of protection',)
+weapons = ["Talons", "Warhammer", "Light crossbow"]  # Example: ('shortsword', 'longsword')
+magic_items = ["Eyes of Charming"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "Shield"  # Eg "shield"
 
-equipment = """Magic glasses, Priests' pack, amulet"""
+equipment = """Priests' pack, amulet"""
 
 attacks_and_spellcasting = """Bolts: d12
 
@@ -77,14 +82,10 @@ attacks_and_spellcasting = """Bolts: d12
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance",
-          "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying",
-          "Thunderwave")
+spells = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance", "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying", "Thunderwave")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance",
-                   "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying",
-                   "Thunderwave")
+spells_prepared = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance", "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying", "Thunderwave")
 
 # Backstory
 # Describe your backstory here

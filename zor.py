@@ -5,7 +5,7 @@ sheet by running ``makesheets`` from the command line.
 
 """
 
-dungeonsheets_version = "0.9.0"
+dungeonsheets_version = "0.9.2"
 
 name = "Zor Daar"
 player_name = "Harshil"
@@ -13,7 +13,7 @@ player_name = "Harshil"
 # Be sure to list Primary class first
 classes = ['Paladin']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
 levels = [3]  # ex: [10] or [3, 2]
-subclasses = ['']  # ex: ['Necromacy'] or ['Thief', None]
+subclasses = ["Oath of Zor"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Soldier"
 race = "Human"
 alignment = "Chaotic Good"
@@ -34,16 +34,21 @@ charisma = 13
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
 skill_proficiencies = ('athletics', 'intimidation', 'persuasion', 'religion')
 
-# Named features / feats that aren't part of your classes,
-# race, or background. Also include Eldritch Invocations.
+# Any skills you have "expertise" (Bard/Rogue) in
+skill_expertise = []
+
+# Named features / feats that aren't part of your classes, race, or background.
+# Also include Eldritch Invocations and features you make multiple selection of
+# (like Maneuvers for Fighter, Metamagic for Sorcerors, Trick Shots for
+# Gunslinger, etc.)
 # Example:
-# features = ('Tavern Brawler',)  # take the optional Feat from PHB
-features = ()
+# features = ('Tavern Brawler',) # take the optional Feat from PHB
+features = []
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
 # feature_choices = ('Archery',)
-feature_choices = ()
+feature_choices = ('Great-Weapon Fighting',)
 
 # Weapons/other proficiencies not given by class/race/background
 weapon_proficiencies = ()
@@ -61,8 +66,8 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Greatsword", "War pick", "Javelin"] # Example: ('shortsword', 'longsword')
-magic_items = []  # Example: ('ring of protection',)
+weapons = ["Flame Tongue", "War pick", "Javelin"]  # Example: ('shortsword', 'longsword')
+magic_items = ["Flame Tongue"]  # Example: ('ring of protection',)
 armor = "Plate Mail"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
@@ -72,10 +77,10 @@ attacks_and_spellcasting = """5 Javelins"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Bless", "Detect Poison and Disease")
+spells = ("Bless", "Detect Poison and Disease", "Sanctuary", "Sleep")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Bless", "Detect Poison and Disease")
+spells_prepared = ("Bless", "Detect Poison and Disease", "Sanctuary", "Sleep")
 
 # Backstory
 # Describe your backstory here
@@ -95,18 +100,5 @@ flaws = """
 """
 
 features_and_traits = """
-*Divine Sense: evil smells bad. As an action, can open awareness to detect evil forces. 
-Can use 1+CHA times before Long Rest.
-
-*Lay on Hands: Healing power of touch. Pool of HP = 5xLVL
-
-*Military Rank
-
-*Great Weapon Fighting: Reroll 1 or 2 on damage dice
-
-*Divine Smite: 2d8 radiant / 1st-level spell slot
-
-*Immune to Disease
-
-*5 followers
+5 followers
 """

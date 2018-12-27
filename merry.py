@@ -5,7 +5,7 @@ sheet by running ``makesheets`` from the command line.
 
 """
 
-dungeonsheets_version = "0.9.0"
+dungeonsheets_version = "0.9.2"
 
 name = "Merry Skipstep"
 player_name = "Josh"
@@ -34,11 +34,16 @@ charisma = 16
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
 skill_proficiencies = ('acrobatics', 'athletics', 'deception', 'persuasion', 'sleight of hand', 'stealth')
 
-# Named features / feats that aren't part of your classes,
-# race, or background. Also include Eldritch Invocations.
+# Any skills you have "expertise" (Bard/Rogue) in
+skill_expertise = ('acrobatics', 'deception')
+
+# Named features / feats that aren't part of your classes, race, or background.
+# Also include Eldritch Invocations and features you make multiple selection of
+# (like Maneuvers for Fighter, Metamagic for Sorcerors, Trick Shots for
+# Gunslinger, etc.)
 # Example:
-# features = ('Tavern Brawler',)  # take the optional Feat from PHB
-features = ()
+# features = ('Tavern Brawler',) # take the optional Feat from PHB
+features = []
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -61,8 +66,8 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Rapier", "Shortsword", "Dagger"] # Example: ('shortsword', 'longsword')
-magic_items = []  # Example: ('ring of protection',)
+weapons = ["Rapier", "Shortsword", "Dagger"]  # Example: ('shortsword', 'longsword')
+magic_items = ["Charlattans Die"]  # Example: ('ring of protection',)
 armor = "Elven Chain"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
@@ -74,12 +79,10 @@ attacks_and_spellcasting = """"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Burning Hands", "Expeditious Retreat", "Prestidigitation",
-          "Mage Hand", "Poison Spray", "Shocking Grasp")
+spells = ("Burning Hands", "Expeditious Retreat", "Prestidigitation", "Mage Hand", "Poison Spray", "Shocking Grasp")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Burning Hands", "Expeditious Retreat", "Prestidigitation",
-                   "Mage Hand", "Poison Spray", "Shocking Grasp")
+spells_prepared = ("Burning Hands", "Expeditious Retreat", "Prestidigitation", "Mage Hand", "Poison Spray", "Shocking Grasp")
 
 # Backstory
 # Describe your backstory here
@@ -106,30 +109,6 @@ Difficulty being honest.
 """
 
 features_and_traits = """
-*Lucky: reroll 1 on d20
-
-*Brave: Adv. vs. frightened
-
-*Halfling Nimbleness: Move through size+1
-
-*Naturally Stealthy: Hide behind size+1
-
-*False Identity: handful of shallow cons
-
-*Expertise: Acrobatics, Deception
-
-*Sneak Attack: 1d6 if ADV or flanking
-
-*Thieves' Cant
-
-*Cunning Action: free bonus action (Hide, Dash, Disengage)
-
-*Sorcerous Origin: Wild Magic
-
--Wild Surge (1 on d20)
-
--Tides of Chaos (1 adv / long rest)
-
 *Personas
 
 -Zoltan, foremost seer of other worlds and planes (ancient tome)
