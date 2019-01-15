@@ -12,22 +12,22 @@ player_name = "Tarraneh"
 
 # Be sure to list Primary class first
 classes = ['Cleric']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3]  # ex: [10] or [3, 2]
+levels = [4]  # ex: [10] or [3, 2]
 subclasses = ["Tempest Domain"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Sage"
 race = "Aarakocra"
 alignment = "Chaotic good"
 
 xp = 0
-hp_max = 19
+hp_max = 23
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
 strength = 12
-dexterity = 17
+dexterity = 18
 constitution = 12
 intelligence = 8
-wisdom = 11
+wisdom = 12
 charisma = 11
 
 # Select what skills you're proficient with
@@ -66,12 +66,12 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Talons", "Warhammer", "Light crossbow"]  # Example: ('shortsword', 'longsword')
+weapons = ["Warhammer", "Light crossbow"]  # Example: ('shortsword', 'longsword')
 magic_items = ["Eyes of Charming"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "Shield"  # Eg "shield"
 
-equipment = """Priests' pack, amulet"""
+equipment = """Priests' pack, amulet, DA Coin"""
 
 attacks_and_spellcasting = """Bolts: d12
 
@@ -82,10 +82,10 @@ attacks_and_spellcasting = """Bolts: d12
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance", "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying", "Thunderwave")
+spells = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance", "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying", "Thunderwave", "Thaumaturgy")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance", "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying", "Thunderwave")
+spells_prepared = ("Cure Wounds", "Guiding Bolt", "Enhance Ability", "Hold Person")
 
 # Backstory
 # Describe your backstory here

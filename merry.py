@@ -12,14 +12,14 @@ player_name = "Josh"
 
 # Be sure to list Primary class first
 classes = ['Rogue', 'Sorceror']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [2, 1]  # ex: [10] or [3, 2]
+levels = [2, 2]  # ex: [10] or [3, 2]
 subclasses = ['', "Wild Magic"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Charlatan"
 race = "Lightfoot Halfling"
 alignment = "Chaotic Good"
 
 xp = 0
-hp_max = 19
+hp_max = 20
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -79,10 +79,10 @@ attacks_and_spellcasting = """"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Burning Hands", "Expeditious Retreat", "Prestidigitation", "Mage Hand", "Poison Spray", "Shocking Grasp")
+spells = ("Burning Hands", "Expeditious Retreat", "Prestidigitation", "Mage Hand", "Poison Spray", "Shocking Grasp", "Thunderwave")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Burning Hands", "Expeditious Retreat", "Prestidigitation", "Mage Hand", "Poison Spray", "Shocking Grasp")
+spells_prepared = ("Burning Hands", "Expeditious Retreat", "Prestidigitation", "Mage Hand", "Poison Spray", "Shocking Grasp", "Thunderwave")
 
 # Backstory
 # Describe your backstory here

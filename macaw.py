@@ -11,15 +11,15 @@ name = "Ma'caw"
 player_name = "Ashley"
 
 # Be sure to list Primary class first
-classes = ['Revised Ranger']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3]  # ex: [10] or [3, 2]
-subclasses = ["Beast Conclave"]  # ex: ['Necromacy'] or ['Thief', None]
+classes = ['Revised Ranger', "Fighter"]  # ex: ['Wizard'] or ['Rogue', 'Fighter']
+levels = [3, 1]  # ex: [10] or [3, 2]
+subclasses = ["Beast Conclave", None]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Outlander"
 race = "Kenku"
 alignment = "Neutral"
 
 xp = 0
-hp_max = 22
+hp_max = 25
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -48,7 +48,7 @@ features = []
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
 # feature_choices = ('Archery',)
-feature_choices = ('Archery',)
+feature_choices = ('Archery', 'Two-Weapon Fighting')
 
 # Weapons/other proficiencies not given by class/race/background
 weapon_proficiencies = ()
@@ -68,7 +68,7 @@ pp = 0
 # TODO: Put your equipped weapons and armor here
 weapons = ["Longbow", "Dagger", "Blunderbuss"]  # Example: ('shortsword', 'longsword')
 magic_items = ['Decanter of Endless Water', 'Tooth of Animal Friendship',
-               "Cape of the Mountebank"]  # Example: ('ring of protection',)
+               "Cape of the Mountebank", "Cloak of Billowing"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 

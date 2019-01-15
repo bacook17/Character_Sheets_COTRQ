@@ -12,14 +12,14 @@ player_name = "Alex"
 
 # Be sure to list Primary class first
 classes = ['Monk', 'Fighter']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [1, 2]  # ex: [10] or [3, 2]
+levels = [1, 3]  # ex: [10] or [3, 2]
 subclasses = ['', "Battle Master"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Hermit"
 race = "Human"
 alignment = "Chaotic good"
 
 xp = 0
-hp_max = 23
+hp_max = 25
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -27,7 +27,7 @@ strength = 16
 dexterity = 13
 constitution = 12
 intelligence = 11
-wisdom = 20
+wisdom = 10
 charisma = 8
 
 # Select what skills you're proficient with
@@ -43,7 +43,8 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = []
+features = ['Distracting Strike', 'Precision Attack', 'Disarming Attack',
+            "Great Weapon Master"]
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -71,9 +72,9 @@ magic_items = []  # Example: ('ring of protection',)
 armor = "None"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
-equipment = """TODO: Describe your equipment from your Monk class and Hermit background."""
+equipment = """Instrument, herbalism kit, clothes, weaver's tools"""
 
-attacks_and_spellcasting = """TODO: Describe specifics for how your Monk attacks."""
+attacks_and_spellcasting = """"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
@@ -97,11 +98,4 @@ bonds = """Masters of their art
 flaws = """Stubborn
 """
 
-features_and_traits = """*Great Weapon Master (-5 attack, +10 damage)
-
-*Second Wind
-
-*Dueling +2
-
-*Action Surge
-"""
+features_and_traits = """"""

@@ -12,23 +12,23 @@ player_name = "Lehman"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3]  # ex: [10] or [3, 2]
+levels = [4]  # ex: [10] or [3, 2]
 subclasses = ["The Fiend Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Far Traveler"
 race = "Fallen Aasimar"
 alignment = "Lawful good"
 
 xp = 0
-hp_max = 15
+hp_max = 18
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
-strength = 13
+strength = 14
 dexterity = 11
 constitution = 8
 intelligence = 10
 wisdom = 12
-charisma = 17
+charisma = 18
 
 # Select what skills you're proficient with
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
@@ -52,7 +52,7 @@ feature_choices = ('Pact of the Chain',)
 
 # Weapons/other proficiencies not given by class/race/background
 weapon_proficiencies = ()
-_proficiencies_text = ()
+_proficiencies_text = ("chess", "ASMR",)
 
 # Proficiencies and languages
 languages = """Dwarvish, Common, Celestial"""
@@ -62,7 +62,7 @@ languages = """Dwarvish, Common, Celestial"""
 cp = 0
 sp = 0
 ep = 0
-gp = 0
+gp = 2062
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
@@ -72,16 +72,18 @@ armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
 equipment = """Staff (focus). Dungeoneer's Pack. Chess set.
-Piece of Jewelry (10 GP)"""
+Piece of Jewelry (10 GP). 1 DA Coin, 2 bloodstones, 1 Moonstone, 10 large rubies"""
 
 attacks_and_spellcasting = """"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Burning Hands", "Command", "Eldritch Blast", "Darkness", "Detect Magic", "Enthrall", "Find Familiar", "Hellish Rebuke", "Hex", "Hold Person", "Illusory Script", "Invisibility", "Light", "Mage Hand", "Misty Step", "Shatter", "Unseen Servant", "Suggestion", "Spider Climb", "Detect Magic")
+spells = ("Eldritch Blast", "Mage Hand", "Chill Touch", "Burning Hands", "Command", "Hellish Rebuke", "Hex", "Illusory Script",
+          "Unseen Servant", "Enthrall", "Darkness", "Hold Person", "Invisibility",
+          "Misty Step", "Shatter", "Spider Climb", "Suggestion")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Command", "Darkness", "Find Familiar", "Detect Magic", "Eldritch Blast", "Hellish Rebuke", "Hex", "Light", "Mage Hand", "Misty Step", "Detect Magic")
+spells_prepared = ("Command", "Hellish Rebuke", "Hex", "Darkness", "Misty Step")
 
 # Backstory
 # Describe your backstory here
