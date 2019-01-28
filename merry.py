@@ -43,7 +43,7 @@ skill_expertise = ('acrobatics', 'deception')
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = []
+features = ['actor']
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):

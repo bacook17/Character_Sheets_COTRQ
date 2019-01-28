@@ -12,23 +12,23 @@ player_name = "Larissa"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3]  # ex: [10] or [3, 2]
+levels = [4]  # ex: [10] or [3, 2]
 subclasses = ["Hexblade Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Urban Bounty Hunter"
 race = "Lizardfolk"
 alignment = "Chaotic Neutral"
 
 xp = 0
-hp_max = 22
+hp_max = 30
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
 strength = 14
 dexterity = 12
-constitution = 15
+constitution = 16
 intelligence = 8
 wisdom = 11
-charisma = 15
+charisma = 16
 
 # Select what skills you're proficient with
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
@@ -43,7 +43,7 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = ["Devil's Sight", "Thief of Five Fates"]
+features = ["Devil's Sight", "Eldritch Spear"]
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -66,7 +66,7 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Maul", "Bite"]  # Example: ('shortsword', 'longsword')
+weapons = ["Maul"]  # Example: ('shortsword', 'longsword')
 magic_items = []  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
@@ -78,10 +78,10 @@ attacks_and_spellcasting = """"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Bane", "Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Expeditious Retreat", "Shatter", "Spider Climb")
+spells = ("Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Expeditious Retreat", "Shatter", "Spider Climb", "Misty Step", "Blade Ward")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Bane", "Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Expeditious Retreat", "Shatter", "Spider Climb")
+spells_prepared = ("Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Expeditious Retreat", "Shatter", "Spider Climb", "Misty Step", 'Blade Ward')
 
 # Backstory
 # Describe your backstory here

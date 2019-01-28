@@ -12,23 +12,23 @@ player_name = "Harshil"
 
 # Be sure to list Primary class first
 classes = ['Paladin']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3]  # ex: [10] or [3, 2]
+levels = [4]  # ex: [10] or [3, 2]
 subclasses = ["Oath of Zor"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Soldier"
 race = "Human"
 alignment = "Chaotic Good"
 
 xp = 0
-hp_max = 33
+hp_max = 44
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
 strength = 16
 dexterity = 12
 constitution = 13
-intelligence = 11
+intelligence = 12
 wisdom = 9
-charisma = 13
+charisma = 14
 
 # Select what skills you're proficient with
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
@@ -77,10 +77,10 @@ attacks_and_spellcasting = """5 Javelins"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Bless", "Detect Poison and Disease", "Sanctuary", "Sleep")
+spells = ("Bless", "Detect Poison and Disease")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Bless", "Detect Poison and Disease", "Sanctuary", "Sleep")
+spells_prepared = ("Bless", "Detect Poison and Disease")
 
 # Backstory
 # Describe your backstory here
