@@ -12,7 +12,7 @@ player_name = "Josh"
 
 # Be sure to list Primary class first
 classes = ['Rogue', 'Sorceror']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [2, 2]  # ex: [10] or [3, 2]
+levels = [2, 3]  # ex: [10] or [3, 2]
 subclasses = ['', "Wild Magic"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Charlatan"
 race = "Lightfoot Halfling"
@@ -109,6 +109,12 @@ Difficulty being honest.
 """
 
 features_and_traits = """
+Add HP for Level 5
+
+New 2nd level spells  (1 more known)
+
+MetaMagic Options
+=======
 *Personas
 
 -Zoltan, foremost seer of other worlds and planes (ancient tome)

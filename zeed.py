@@ -12,7 +12,7 @@ player_name = "Tarraneh"
 
 # Be sure to list Primary class first
 classes = ['Cleric']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [4]  # ex: [10] or [3, 2]
+levels = [5]  # ex: [10] or [3, 2]
 subclasses = ["Tempest Domain"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Sage"
 race = "Aarakocra"
@@ -67,9 +67,9 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["Warhammer", "Light crossbow"]  # Example: ('shortsword', 'longsword')
-magic_items = ["Eyes of Charming"]  # Example: ('ring of protection',)
+magic_items = ["Eyes of Charming", "Shield of Faces", "Coins of Communication"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
-shield = "Shield"  # Eg "shield"
+shield = "Shield of Faces"  # Eg "shield"
 
 equipment = """Priests' pack, amulet, DA Coin"""
 
@@ -105,4 +105,7 @@ Speak without thinking
 """
 
 features_and_traits = """
+Add HP for Level 5
+
+Another spell prepared
 """

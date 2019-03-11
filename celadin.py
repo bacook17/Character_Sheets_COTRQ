@@ -12,7 +12,7 @@ player_name = "Lehman"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [4]  # ex: [10] or [3, 2]
+levels = [5]  # ex: [10] or [3, 2]
 subclasses = ["The Fiend Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Far Traveler"
 race = "Fallen Aasimar"
@@ -43,7 +43,7 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = ["Eldritch Sight", "Eyes of the Rune Keeper"]
+features = ["Eldritch Sight", "Eyes of the Rune Keeper", 'Eldritch Invocation']
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -66,9 +66,10 @@ gp = 2062
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Dagger", "Quarterstaff", "Spear"]  # Example: ('shortsword', 'longsword')
-magic_items = ["Pipe of Smoke Monsters"]  # Example: ('ring of protection',)
-armor = "Leather armor"  # Eg "light leather armor"
+weapons = ["Dagger", "Quarterstaff", "Spear of Lightning"]  # Example: ('shortsword', 'longsword')
+magic_items = ["Coins of Communication", "Pipe of Smoke Monsters", 'Spear of Lightning',
+               'Glowing Sword']  # Example: ('ring of protection',)
+armor = "Studded Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
 equipment = """Staff (focus). Dungeoneer's Pack. Chess set.
@@ -104,4 +105,8 @@ Wants to bring his family home.
 flaws = """
 """
 
-features_and_traits = """"""
+features_and_traits = """
+Update HP for Level 5
+
+Add new Spell Known
+"""

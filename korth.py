@@ -12,7 +12,7 @@ player_name = "Larissa"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [4]  # ex: [10] or [3, 2]
+levels = [5]  # ex: [10] or [3, 2]
 subclasses = ["Hexblade Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Urban Bounty Hunter"
 race = "Lizardfolk"
@@ -43,7 +43,7 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = ["Devil's Sight", "Eldritch Spear"]
+features = ["Devil's Sight", "Eldritch Spear", 'Eldritch Invocation']
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -67,12 +67,12 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["Maul"]  # Example: ('shortsword', 'longsword')
-magic_items = []  # Example: ('ring of protection',)
+magic_items = ["Bracers of Magnetism", "Coins of Communication"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
-equipment = """dagger (stabby dwarf), magic ash, arcane focus (orb),
-dungeoneers pack"""
+equipment = """arcane focus (orb),
+dungeoneers pack, hydra bone pendant"""
 
 attacks_and_spellcasting = """"""
 
@@ -105,4 +105,7 @@ If there is a plan, I forget/ignore it.
 """
 
 features_and_traits = """
+Update HP for Level 5
+
+Add new Spell Known
 """

@@ -12,7 +12,7 @@ player_name = "Harshil"
 
 # Be sure to list Primary class first
 classes = ['Paladin']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [4]  # ex: [10] or [3, 2]
+levels = [5]  # ex: [10] or [3, 2]
 subclasses = ["Oath of Zor"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Soldier"
 race = "Human"
@@ -67,7 +67,7 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["Flame Tongue", "War pick", "Javelin"]  # Example: ('shortsword', 'longsword')
-magic_items = ["Flame Tongue"]  # Example: ('ring of protection',)
+magic_items = ["Flame Tongue", "Coins of Communication"]  # Example: ('ring of protection',)
 armor = "Plate Mail"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
@@ -100,5 +100,9 @@ flaws = """
 """
 
 features_and_traits = """
+add HP for Level 5
+
+
+
 5 followers
 """

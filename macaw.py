@@ -12,7 +12,7 @@ player_name = "Ashley"
 
 # Be sure to list Primary class first
 classes = ['Revised Ranger', "Fighter"]  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3, 1]  # ex: [10] or [3, 2]
+levels = [3, 2]  # ex: [10] or [3, 2]
 subclasses = ["Beast Conclave", None]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Outlander"
 race = "Kenku"
@@ -68,7 +68,8 @@ pp = 0
 # TODO: Put your equipped weapons and armor here
 weapons = ["Longbow", "Dagger", "Blunderbuss"]  # Example: ('shortsword', 'longsword')
 magic_items = ['Decanter of Endless Water', 'Tooth of Animal Friendship',
-               "Cape of the Mountebank", "Cloak of Billowing"]  # Example: ('ring of protection',)
+               "Cape of the Mountebank", "Cloak of Billowing",
+               "Amulet of the Eel"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
@@ -110,4 +111,7 @@ flaws = """
 Don't save others
 """
 
-features_and_traits = """"""
+features_and_traits = """
+Add HP for Level 5
+
+"""

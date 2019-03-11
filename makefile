@@ -1,4 +1,4 @@
-all: sota celadin korth macaw zor zeed merry
+all: sota celadin korth macaw zor zeed merry goltha
 
 install:
 	-git submodule init
@@ -29,6 +29,9 @@ rm_zeed:
 rm_merry:
 	-rm merry.pdf
 
+rm_goltha:
+	-rm goltha.pdf
+
 sota: rm_sota sota.pdf
 
 celadin: rm_celadin celadin.pdf
@@ -42,6 +45,8 @@ zor: rm_zor zor.pdf
 zeed: rm_zeed zeed.pdf
 
 merry: rm_merry merry.pdf
+
+goltha: rm_goltha goltha.pdf
 
 %.pdf: %.py
 	makesheets $<
