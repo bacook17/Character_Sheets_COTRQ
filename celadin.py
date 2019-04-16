@@ -19,7 +19,7 @@ race = "Fallen Aasimar"
 alignment = "Lawful good"
 
 xp = 0
-hp_max = 18
+hp_max = 21
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -43,7 +43,7 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = ["Eldritch Sight", "Eyes of the Rune Keeper", 'Eldritch Invocation']
+features = ["Eldritch Sight", "Cloak of Flies", 'Voice of the Chain Master']
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -62,8 +62,8 @@ languages = """Dwarvish, Common, Celestial"""
 cp = 0
 sp = 0
 ep = 0
-gp = 2062
-pp = 0
+gp = 3519
+pp = 150
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["Dagger", "Quarterstaff", "Spear of Lightning"]  # Example: ('shortsword', 'longsword')
@@ -73,7 +73,7 @@ armor = "Studded Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
 equipment = """Staff (focus). Dungeoneer's Pack. Chess set.
-Piece of Jewelry (10 GP). 1 DA Coin, 2 bloodstones, 1 Moonstone, 10 large rubies"""
+Piece of Jewelry (10 GP). 1 DA Coin, 2 bloodstones, 1 Moonstone, 10 large rubies, 6 large emeralds"""
 
 attacks_and_spellcasting = """"""
 
@@ -81,10 +81,10 @@ attacks_and_spellcasting = """"""
 # Example: spells = ('magic missile', 'mage armor')
 spells = ("Eldritch Blast", "Mage Hand", "Chill Touch", "Burning Hands", "Command", "Hellish Rebuke", "Hex", "Illusory Script",
           "Unseen Servant", "Enthrall", "Darkness", "Hold Person", "Invisibility",
-          "Misty Step", "Shatter", "Spider Climb", "Suggestion")
+          "Misty Step", "Shatter", "Spider Climb", "Suggestion", "Dispel Magic")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Command", "Hellish Rebuke", "Hex", "Darkness", "Misty Step")
+spells_prepared = ("Command", "Hellish Rebuke", "Hex", "Darkness", "Misty Step", "Dispel Magic")
 
 # Backstory
 # Describe your backstory here
@@ -106,7 +106,4 @@ flaws = """
 """
 
 features_and_traits = """
-Update HP for Level 5
-
-Add new Spell Known
 """

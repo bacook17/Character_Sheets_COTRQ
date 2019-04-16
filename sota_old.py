@@ -1,4 +1,4 @@
-"""This file describes the heroic adventurer Zeed.
+"""This file describes the heroic adventurer Sota.
 
 Modify this file as you level up and then re-generate the character
 sheet by running ``makesheets`` from the command line.
@@ -7,32 +7,32 @@ sheet by running ``makesheets`` from the command line.
 
 dungeonsheets_version = "0.9.2"
 
-name = "Zeed"
-player_name = "Tarraneh"
+name = "Sota"
+player_name = "Alex"
 
 # Be sure to list Primary class first
-classes = ['Cleric']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [5]  # ex: [10] or [3, 2]
-subclasses = ["Tempest Domain"]  # ex: ['Necromacy'] or ['Thief', None]
-background = "Sage"
-race = "Aarakocra"
+classes = ['Monk', 'Fighter']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
+levels = [1, 3]  # ex: [10] or [3, 2]
+subclasses = ['', "Battle Master"]  # ex: ['Necromacy'] or ['Thief', None]
+background = "Hermit"
+race = "Human"
 alignment = "Chaotic good"
 
 xp = 0
-hp_max = 32
+hp_max = 25
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
-strength = 12
-dexterity = 18
+strength = 16
+dexterity = 13
 constitution = 12
-intelligence = 8
-wisdom = 12
-charisma = 11
+intelligence = 11
+wisdom = 10
+charisma = 8
 
 # Select what skills you're proficient with
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
-skill_proficiencies = ('arcana', 'history', 'medicine', 'persuasion')
+skill_proficiencies = ('acrobatics', 'athletics', 'medicine', 'religion', 'stealth')
 
 # Any skills you have "expertise" (Bard/Rogue) in
 skill_expertise = []
@@ -43,19 +43,20 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = []
+features = ['Distracting Strike', 'Precision Attack', 'Disarming Attack',
+            "Great Weapon Master"]
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
 # feature_choices = ('Archery',)
-feature_choices = ()
+feature_choices = ('Dueling',)
 
 # Weapons/other proficiencies not given by class/race/background
-weapon_proficiencies = ()
+weapon_proficiencies = ('Heavy Punch',)
 _proficiencies_text = ()
 
 # Proficiencies and languages
-languages = """Common, Aarakocra, Auran, Giant, Elvish"""
+languages = """Common, Sylvan"""
 
 # Inventory
 # TODO: Get yourself some money
@@ -66,43 +67,35 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Warhammer", "Light crossbow"]  # Example: ('shortsword', 'longsword')
-magic_items = ["Eyes of Charming", "Shield of Faces", "Coins of Communication"]  # Example: ('ring of protection',)
-armor = "Leather armor"  # Eg "light leather armor"
-shield = "Shield of Faces"  # Eg "shield"
+weapons = ["Unarmed", "Heavy Punch"]  # Example: ('shortsword', 'longsword')
+magic_items = []  # Example: ('ring of protection',)
+armor = "None"  # Eg "light leather armor"
+shield = "None"  # Eg "shield"
 
-equipment = """Priests' pack, amulet, DA Coin"""
+equipment = """Instrument, herbalism kit, clothes, weaver's tools"""
 
-attacks_and_spellcasting = """Bolts: d12
-
-+2 Bolts: d6
-
-(AC = 14 if using crossbow - no shield)
-"""
+attacks_and_spellcasting = """"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance", "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying", "Thunderwave", "Thaumaturgy")
+spells = ()
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Cure Wounds", "Guiding Bolt", "Enhance Ability", "Hold Person")
+spells_prepared = ()
 
 # Backstory
 # Describe your backstory here
-personality_traits = """
-Help others
+personality_traits = """There is no limit to what the human body can do.
+Out to prove myself.
 """
 
-ideals = """
-Self Improvement
+ideals = """Dedication
 """
 
-bonds = """
+bonds = """Masters of their art
 """
 
-flaws = """
-Speak without thinking
+flaws = """Stubborn
 """
 
-features_and_traits = """
-"""
+features_and_traits = """"""

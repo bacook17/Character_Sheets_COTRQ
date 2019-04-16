@@ -19,7 +19,7 @@ race = "Kenku"
 alignment = "Neutral"
 
 xp = 0
-hp_max = 25
+hp_max = 35
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -62,7 +62,7 @@ languages = """Common, Auran (Mimickry Only)"""
 cp = 0
 sp = 0
 ep = 0
-gp = 0
+gp = 50
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
@@ -112,6 +112,4 @@ Don't save others
 """
 
 features_and_traits = """
-Add HP for Level 5
-
 """
