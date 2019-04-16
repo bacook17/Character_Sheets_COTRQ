@@ -19,7 +19,7 @@ race = "Lizardfolk"
 alignment = "Chaotic Neutral"
 
 xp = 0
-hp_max = 30
+hp_max = 41
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -43,7 +43,7 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = ["Devil's Sight", "Eldritch Spear", 'Eldritch Invocation']
+features = ["Devil's Sight", "Thirsting Blade", "Agonizing Blast", 'Eldritch Invocation']
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -72,16 +72,16 @@ armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
 equipment = """arcane focus (orb),
-dungeoneers pack, hydra bone pendant"""
+dungeoneers pack, hydra bone pendant, palota ball, black dagger from """
 
 attacks_and_spellcasting = """"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Expeditious Retreat", "Shatter", "Spider Climb", "Misty Step", "Blade Ward")
+spells = ("Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Shatter", "Spider Climb", "Mirror Image", "Hypnotic Pattern", "Vampiric Touch", "True Strike", )
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Expeditious Retreat", "Shatter", "Spider Climb", "Misty Step", 'Blade Ward')
+spells_prepared = ("Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Shatter", "Spider Climb", "Mirror Image", "Hypnotic Pattern", "Vampiric Touch", "True Strike")
 
 # Backstory
 # Describe your backstory here
@@ -105,7 +105,4 @@ If there is a plan, I forget/ignore it.
 """
 
 features_and_traits = """
-Update HP for Level 5
-
-Add new Spell Known
 """
