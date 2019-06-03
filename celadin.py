@@ -12,14 +12,14 @@ player_name = "Lehman"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [5]  # ex: [10] or [3, 2]
+levels = [6]  # ex: [10] or [3, 2]
 subclasses = ["The Fiend Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Far Traveler"
 race = "Fallen Aasimar"
 alignment = "Lawful good"
 
 xp = 0
-hp_max = 21
+hp_max = 22
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -62,7 +62,7 @@ languages = """Dwarvish, Common, Celestial"""
 cp = 0
 sp = 0
 ep = 0
-gp = 3519
+gp = 2822
 pp = 150
 
 # TODO: Put your equipped weapons and armor here
@@ -73,18 +73,26 @@ armor = "Studded Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
 equipment = """Staff (focus). Dungeoneer's Pack. Chess set.
-Piece of Jewelry (10 GP). 1 DA Coin, 2 bloodstones, 1 Moonstone, 10 large rubies, 6 large emeralds"""
+Piece of Jewelry (10 GP). 2 bloodstones, 1 Moonstone, 10 large rubies, 6 large emeralds, 10 pearl/topaz/shell necklaces.
+2x potions
+"""
 
-attacks_and_spellcasting = """"""
+attacks_and_spellcasting = """
+Lightning Spear: command word "Caranda!"
+"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Eldritch Blast", "Mage Hand", "Chill Touch", "Burning Hands", "Command", "Hellish Rebuke", "Hex", "Illusory Script",
-          "Unseen Servant", "Enthrall", "Darkness", "Hold Person", "Invisibility",
-          "Misty Step", "Shatter", "Spider Climb", "Suggestion", "Dispel Magic")
+spells = ("Eldritch Blast", "Mage Hand", "Chill Touch",
+          "Command", "Hex",
+          "Darkness", "Misty Step",
+          "Dispel Magic", "Remove Curse", "Hunger of Hadar")
+          # "Burning Hands", "Command", "Hex", "Illusory Script", "Unseen Servant",
+          # "Enthrall", "Darkness", "Hold Person", "Invisibility", "Misty Step", "Shatter", "Spider Climb", "Suggestion",
+          # "Dispel Magic", "Remove Curse", "Hunger of Hadar")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Command", "Hellish Rebuke", "Hex", "Darkness", "Misty Step", "Dispel Magic")
+spells_prepared = spells
 
 # Backstory
 # Describe your backstory here

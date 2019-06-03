@@ -15,14 +15,14 @@ player_name = "Alex"
 
 # Be sure to list Primary class first
 classes = ['Wizard']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [5]  # ex: [10] or [3, 2]
+levels = [6]  # ex: [10] or [3, 2]
 subclasses = ["School of Conjuration"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Hermit"
 race = "Goliath"
 alignment = "Lawful good"
 
 xp = 0
-hp_max = 21
+hp_max = 25
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -85,14 +85,15 @@ attacks_and_spellcasting = """"""
 spells_prepared = ('blade ward', 'minor illusion', 'mending', 'fire bolt',  # 4 cantrips
                    'fog cloud', 'mage armor', 'magic missile',  # 6 spells @ 5th
                    'magic weapon', 'gust of wind', 'levitate',
-                   'haste')  # Todo: Learn some spells
+                   'haste', 'magic circle')  # Todo: Learn some spells
 
 # Which spells have not been prepared
 # 6 1st level total
 # 8 others total
 __spells_unprepared = ('witch bolt', 'sleep', 'detect magic',  # 6 1st level
                        'suggestion', 'phantasmal force',    # 14 total
-                       'protection from energy', 'stinking cloud')
+                       'protection from energy', 'stinking cloud',
+                       'remove curse')
 
 # all spells known
 spells = spells_prepared + __spells_unprepared
@@ -102,13 +103,15 @@ wild_shapes = ()  # Ex: ('ape', 'wolf', 'ankylosaurus')
 
 # Backstory
 # Describe your backstory here
-personality_traits = ""#"""There is not limit to what the human body can do, out to prove myself"""
+personality_traits = """There is not limit to what the human body can do, out to prove myself"""
 
-ideals = ""#"""dedication"""
+ideals = """dedication"""
 
-bonds = ""#"""masters of thier art"""
+bonds = """masters of thier art"""
 
-flaws = ""#"""stubborn"""
+flaws = """stubborn
 
-features_and_traits = """TODO: Describe other features and abilities your
-character has."""
+Has no hands
+"""
+
+features_and_traits = """"""

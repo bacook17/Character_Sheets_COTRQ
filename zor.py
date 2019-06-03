@@ -12,14 +12,14 @@ player_name = "Harshil"
 
 # Be sure to list Primary class first
 classes = ['Paladin']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [5]  # ex: [10] or [3, 2]
+levels = [6]  # ex: [10] or [3, 2]
 subclasses = ["Oath of Zor"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Soldier"
 race = "Human"
 alignment = "Chaotic Good"
 
 xp = 0
-hp_max = 44
+hp_max = 54
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -100,9 +100,7 @@ flaws = """
 """
 
 features_and_traits = """
-add HP for Level 5
-
-
+Should have 3 more spells known (5 + 4 Oath Spells)
 
 5 followers
 """

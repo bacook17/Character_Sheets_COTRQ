@@ -12,14 +12,14 @@ player_name = "Tarraneh"
 
 # Be sure to list Primary class first
 classes = ['Cleric']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [5]  # ex: [10] or [3, 2]
+levels = [6]  # ex: [10] or [3, 2]
 subclasses = ["Tempest Domain"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Sage"
 race = "Aarakocra"
 alignment = "Chaotic good"
 
 xp = 0
-hp_max = 32
+hp_max = 39
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -77,15 +77,18 @@ attacks_and_spellcasting = """Bolts: d12
 
 +2 Bolts: d6
 
-(AC = 14 if using crossbow - no shield)
+(AC = 15 if using crossbow - no shield)
 """
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Cure Wounds", "Fog Cloud", "Gust of Wind", "Guidance", "Guiding Bolt", "Resistance", "Shatter", "Spare the Dying", "Thunderwave", "Thaumaturgy")
+spells = ("Guidance", "Resistance", "Spare the Dying", "Thaumaturgy",
+          "Cure Wounds", "Bane", "Guiding Bolt",
+          "Mirror Image", "Hold Person", "Enhance Ability",
+          "Aura of Vitality")
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Cure Wounds", "Guiding Bolt", "Enhance Ability", "Hold Person")
+spells_prepared = spells
 
 # Backstory
 # Describe your backstory here

@@ -12,14 +12,14 @@ player_name = "Ashley"
 
 # Be sure to list Primary class first
 classes = ['Revised Ranger', "Fighter"]  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3, 2]  # ex: [10] or [3, 2]
-subclasses = ["Beast Conclave", None]  # ex: ['Necromacy'] or ['Thief', None]
+levels = [3, 3]  # ex: [10] or [3, 2]
+subclasses = ["Beast Conclave", "Gunslinger"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Outlander"
 race = "Kenku"
 alignment = "Neutral"
 
 xp = 0
-hp_max = 35
+hp_max = 37
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -43,7 +43,7 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = []
+features = ["Disarming Shot", "Piercing Shot"]
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -52,7 +52,7 @@ feature_choices = ('Archery', 'Two-Weapon Fighting')
 
 # Weapons/other proficiencies not given by class/race/background
 weapon_proficiencies = ()
-_proficiencies_text = ()
+_proficiencies_text = ("Tinkers Tools",)
 
 # Proficiencies and languages
 languages = """Common, Auran (Mimickry Only)"""
@@ -62,11 +62,11 @@ languages = """Common, Auran (Mimickry Only)"""
 cp = 0
 sp = 0
 ep = 0
-gp = 50
+gp = 48
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Longbow", "Dagger", "Blunderbuss"]  # Example: ('shortsword', 'longsword')
+weapons = ["Longbow", "Dagger +1", "Blunderbuss"]  # Example: ('shortsword', 'longsword')
 magic_items = ['Decanter of Endless Water', 'Tooth of Animal Friendship',
                "Cape of the Mountebank", "Cloak of Billowing",
                "Amulet of the Eel"]  # Example: ('ring of protection',)
@@ -75,13 +75,13 @@ shield = "None"  # Eg "shield"
 
 equipment = """Explorer's pack. Silver Necklace. Hunting Trap. Musical Instrument."""
 
-attacks_and_spellcasting = """Arrows: d12
+attacks_and_spellcasting = """+2 damage vs. beasts
+
+Arrows: d10
 
 Blunderbuss: Range (15/60), Reload 1, Misfire 2
 
 Buckshot: d6
-
-+2 damage vs. beasts
 """
 
 # List of known spells

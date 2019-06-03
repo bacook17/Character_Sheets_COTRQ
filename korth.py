@@ -12,14 +12,14 @@ player_name = "Larissa"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [5]  # ex: [10] or [3, 2]
+levels = [6]  # ex: [10] or [3, 2]
 subclasses = ["Hexblade Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Urban Bounty Hunter"
 race = "Lizardfolk"
 alignment = "Chaotic Neutral"
 
 xp = 0
-hp_max = 41
+hp_max = 47
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -43,7 +43,7 @@ skill_expertise = []
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = ["Devil's Sight", "Thirsting Blade", "Agonizing Blast", 'Eldritch Invocation']
+features = ["Devil's Sight", "Thirsting Blade", "Agonizing Blast"]
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -66,8 +66,9 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Maul"]  # Example: ('shortsword', 'longsword')
-magic_items = ["Bracers of Magnetism", "Coins of Communication"]  # Example: ('ring of protection',)
+weapons = ["Maul of Retaliation"]  # Example: ('shortsword', 'longsword')
+magic_items = ["Bracers of Magnetism", "Coins of Communication", "Maul of Retaliation",
+               "Eagle Whistle"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
@@ -78,10 +79,13 @@ attacks_and_spellcasting = """"""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = ("Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Shatter", "Spider Climb", "Mirror Image", "Hypnotic Pattern", "Vampiric Touch", "True Strike", )
+spells = ("Chill Touch", "Eldritch Blast", "True Strike",
+          "Hellish Rebuke",
+          "Shatter", "Spider Climb", "Mirror Image",
+          "Hypnotic Pattern", "Vampiric Touch", "Blink") 
 
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ("Chill Touch", "Hellish Rebuke", "Eldritch Blast", "Shatter", "Spider Climb", "Mirror Image", "Hypnotic Pattern", "Vampiric Touch", "True Strike")
+spells_prepared = spells
 
 # Backstory
 # Describe your backstory here
