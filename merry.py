@@ -12,14 +12,14 @@ player_name = "Josh"
 
 # Be sure to list Primary class first
 classes = ['Rogue', 'Sorceror']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [2, 3]  # ex: [10] or [3, 2]
+levels = [2, 5]  # ex: [10] or [3, 2]
 subclasses = ['', "Wild Magic"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Charlatan"
 race = "Lightfoot Halfling"
 alignment = "Chaotic Good"
 
 xp = 0
-hp_max = 26
+hp_max = 32
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -67,12 +67,13 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["Rapier", "Shortsword", "Dagger"]  # Example: ('shortsword', 'longsword')
-magic_items = ["Charlattans Die"]  # Example: ('ring of protection',)
+magic_items = ["Charlattans Die", "Cape of the Mountebank", "Gloves of Thievery",
+               "Boots of the Winterlands"]  # Example: ('ring of protection',)
 armor = "Elven Chain"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
-equipment = """Fine clothes. Disguise kit. Thieves' tools. Bag of knickknacks. 
-Backpack. Bedroll. Mess kit. Tinderbox. 10x torches. 10x rations.
+equipment = """Fine clothes. Cloak of Protection (Outfit for Ball). Disguise kit. Thieves' tools. Bag of knickknacks. 
+Backpack. Bedroll. Mess kit. Tinderbox. 10x torches. 9x rations.
 waterskins. 50' rope. 2x daggers."""
 
 attacks_and_spellcasting = """"""
@@ -90,12 +91,16 @@ spells_prepared = ("Burning Hands", "Prestidigitation", "Mage Hand", "Poison Spr
 # Describe your backstory here
 personality_traits = """
 Wanderlust, rebel, dedicated, sarcastic.
+
+Getting more serious
 """
 
 ideals = """
 Life is too short not to enjoy it.
 
 No one tells me what to do.
+
+Improving
 """
 
 bonds = """
@@ -108,18 +113,24 @@ flaws = """
 Lack of seriousness, tomfoolery.
 
 Difficulty being honest.
+
+Getting better
 """
 
 features_and_traits = """
+TODO: New spell learned (3rd Level available)
+
 *Personas
 
 -Zoltan, foremost seer of other worlds and planes (ancient tome)
 
--Hograth, left hand of Tyr (old hat)
+-Hograth, left hand of Tyr (old broken hammer)
 
 -Soleas, animal whisperer (dog carving)
 
 -Axel, Pyros Sorceror Supreme III (fine clothes)
 
 -Harrison Ford, kessel run in 12 pc (magic die)
+
+-Sandra, Zeed's Cousin
 """

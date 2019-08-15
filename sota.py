@@ -15,14 +15,14 @@ player_name = "Alex"
 
 # Be sure to list Primary class first
 classes = ['Wizard']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [6]  # ex: [10] or [3, 2]
+levels = [7]  # ex: [10] or [3, 2]
 subclasses = ["School of Conjuration"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Hermit"
 race = "Goliath"
 alignment = "Lawful good"
 
 xp = 0
-hp_max = 25
+hp_max = 27
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -70,7 +70,8 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["Sling", "Dagger"]  # Example: ('shortsword', 'longsword')
-magic_items = ()  # Example: ('ring of protection',)
+magic_items = ["Oil of Sharpness", "Bracers of Defense",
+               "Orb of Time"]  # Example: ('ring of protection',)
 armor = "None"  # Eg "leather armor"
 shield = "None"  # Eg "shield"
 
@@ -114,4 +115,6 @@ flaws = """stubborn
 Has no hands
 """
 
-features_and_traits = """"""
+features_and_traits = """
+TODO: Two new spells (level 4 spells available)
+"""

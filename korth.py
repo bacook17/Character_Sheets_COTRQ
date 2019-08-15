@@ -12,14 +12,14 @@ player_name = "Larissa"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [6]  # ex: [10] or [3, 2]
+levels = [7]  # ex: [10] or [3, 2]
 subclasses = ["Hexblade Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Urban Bounty Hunter"
 race = "Lizardfolk"
 alignment = "Chaotic Neutral"
 
 xp = 0
-hp_max = 47
+hp_max = 55
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -68,11 +68,11 @@ pp = 0
 # TODO: Put your equipped weapons and armor here
 weapons = ["Maul of Retaliation"]  # Example: ('shortsword', 'longsword')
 magic_items = ["Bracers of Magnetism", "Coins of Communication", "Maul of Retaliation",
-               "Eagle Whistle"]  # Example: ('ring of protection',)
+               "Eagle Whistle", "Robe of Stars"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
-equipment = """arcane focus (orb),
+equipment = """Potion of Healing, arcane focus (orb),
 dungeoneers pack, hydra bone pendant, palota ball, black dagger from """
 
 attacks_and_spellcasting = """"""
@@ -109,4 +109,7 @@ If there is a plan, I forget/ignore it.
 """
 
 features_and_traits = """
+TODO: One 4th Level Spell Known
+
+4th Eldritch Invocation
 """

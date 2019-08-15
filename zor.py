@@ -12,7 +12,7 @@ player_name = "Harshil"
 
 # Be sure to list Primary class first
 classes = ['Paladin']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [6]  # ex: [10] or [3, 2]
+levels = [7]  # ex: [10] or [3, 2]
 subclasses = ["Oath of Zor"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Soldier"
 race = "Human"
@@ -62,7 +62,7 @@ languages = """Common, [Choose one]"""
 cp = 0
 sp = 0
 ep = 0
-gp = 0
+gp = 110
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
@@ -100,7 +100,5 @@ flaws = """
 """
 
 features_and_traits = """
-Should have 3 more spells known (5 + 4 Oath Spells)
-
 5 followers
 """

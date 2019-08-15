@@ -12,14 +12,14 @@ player_name = "Tarraneh"
 
 # Be sure to list Primary class first
 classes = ['Cleric']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [6]  # ex: [10] or [3, 2]
+levels = [7]  # ex: [10] or [3, 2]
 subclasses = ["Tempest Domain"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Sage"
 race = "Aarakocra"
 alignment = "Chaotic good"
 
 xp = 0
-hp_max = 39
+hp_max = 44
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -27,7 +27,7 @@ strength = 12
 dexterity = 18
 constitution = 12
 intelligence = 8
-wisdom = 12
+wisdom = 14
 charisma = 11
 
 # Select what skills you're proficient with
@@ -67,7 +67,9 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["Warhammer", "Light crossbow"]  # Example: ('shortsword', 'longsword')
-magic_items = ["Eyes of Charming", "Shield of Faces", "Coins of Communication"]  # Example: ('ring of protection',)
+magic_items = ["Eyes of Charming", "Shield of Faces", "Coins of Communication",
+               "Bag of Rust Colored Tricks", "Bag of Holding",
+               "Stone of Good Luck"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "Shield of Faces"  # Eg "shield"
 
@@ -108,4 +110,5 @@ Speak without thinking
 """
 
 features_and_traits = """
+TODO: Two** new spells learned (Level 4 available)
 """

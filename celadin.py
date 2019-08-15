@@ -12,14 +12,14 @@ player_name = "Lehman"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [6]  # ex: [10] or [3, 2]
+levels = [7]  # ex: [10] or [3, 2]
 subclasses = ["The Fiend Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Far Traveler"
 race = "Fallen Aasimar"
 alignment = "Lawful good"
 
 xp = 0
-hp_max = 22
+hp_max = 28
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -62,19 +62,18 @@ languages = """Dwarvish, Common, Celestial"""
 cp = 0
 sp = 0
 ep = 0
-gp = 2822
-pp = 150
+gp = 1400
+pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["Dagger", "Quarterstaff", "Spear of Lightning"]  # Example: ('shortsword', 'longsword')
-magic_items = ["Coins of Communication", "Pipe of Smoke Monsters", 'Spear of Lightning',
-               'Glowing Sword']  # Example: ('ring of protection',)
-armor = "Studded Leather armor"  # Eg "light leather armor"
+magic_items = ["Coins of Communication", "Pipe of Smoke Monsters", 'Spear of Lightning']  # Example: ('ring of protection',)
+armor = "Studded Leather armor +1"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
 equipment = """Staff (focus). Dungeoneer's Pack. Chess set.
 Piece of Jewelry (10 GP). 2 bloodstones, 1 Moonstone, 10 large rubies, 6 large emeralds, 10 pearl/topaz/shell necklaces.
-2x potions
+2x potions, Map of Sumber Hills
 """
 
 attacks_and_spellcasting = """
@@ -114,4 +113,7 @@ flaws = """
 """
 
 features_and_traits = """
+TODO: One 4th Level Spell Known
+
+4th Eldritch Invocation
 """

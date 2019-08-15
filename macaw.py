@@ -12,14 +12,14 @@ player_name = "Ashley"
 
 # Be sure to list Primary class first
 classes = ['Revised Ranger', "Fighter"]  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3, 3]  # ex: [10] or [3, 2]
+levels = [3, 4]  # ex: [10] or [3, 2]
 subclasses = ["Beast Conclave", "Gunslinger"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Outlander"
 race = "Kenku"
 alignment = "Neutral"
 
 xp = 0
-hp_max = 37
+hp_max = 43
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -69,7 +69,8 @@ pp = 0
 weapons = ["Longbow", "Dagger +1", "Blunderbuss"]  # Example: ('shortsword', 'longsword')
 magic_items = ['Decanter of Endless Water', 'Tooth of Animal Friendship',
                "Cape of the Mountebank", "Cloak of Billowing",
-               "Amulet of the Eel"]  # Example: ('ring of protection',)
+               "Amulet of the Eel", "Medalion of Thoughts",
+               "Slippers of Spider Climbing"]  # Example: ('ring of protection',)
 armor = "Leather armor"  # Eg "light leather armor"
 shield = "None"  # Eg "shield"
 
@@ -112,4 +113,7 @@ Don't save others
 """
 
 features_and_traits = """
+TODO: Ability Score Improvement
+
+(Leveled up Fighter, would you prefer Ranger?)
 """
