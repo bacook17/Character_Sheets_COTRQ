@@ -52,17 +52,19 @@ feature_choices = ('Pact of the Chain',)
 
 # Weapons/other proficiencies not given by class/race/background
 weapon_proficiencies = ()
-_proficiencies_text = ("chess", "ASMR",)
+_proficiencies_text = ("normal chess", "ASMR",)
 
 # Proficiencies and languages
 languages = """Dwarvish, Common, Celestial"""
 
 # Inventory
-# TODO: Get yourself some money
 cp = 0
 sp = 0
 ep = 0
-gp = 1400
+gp = sum((1400,
+            500, # from Imdar
+            500  # from 50 PP from lieutenant
+            ))
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
@@ -85,7 +87,8 @@ Lightning Spear: command word "Caranda!"
 spells = ("Eldritch Blast", "Mage Hand", "Chill Touch",
           "Command", "Hex",
           "Darkness", "Misty Step",
-          "Dispel Magic", "Remove Curse", "Hunger of Hadar")
+          "Dispel Magic", "Remove Curse", "Counterspell",
+          "Wall of Fire")  #"Hunger of Hadar"
           # "Burning Hands", "Command", "Hex", "Illusory Script", "Unseen Servant",
           # "Enthrall", "Darkness", "Hold Person", "Invisibility", "Misty Step", "Shatter", "Spider Climb", "Suggestion",
           # "Dispel Magic", "Remove Curse", "Hunger of Hadar")
@@ -113,7 +116,7 @@ flaws = """
 """
 
 features_and_traits = """
-TODO: One 4th Level Spell Known
+TODO:
 
 4th Eldritch Invocation
 """
