@@ -75,7 +75,7 @@ shield = "None"  # Eg "shield"
 
 equipment = """Staff (focus). Dungeoneer's Pack. Chess set.
 Piece of Jewelry (10 GP). 2 bloodstones, 1 Moonstone, 10 large rubies, 6 large emeralds, 10 pearl/topaz/shell necklaces.
-2x potions, Map of Sumber Hills
+2x potions, Map of Sumber Hills, Feathergale gold chain with ivory tooth
 """
 
 attacks_and_spellcasting = """
