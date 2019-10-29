@@ -21,6 +21,7 @@ alignment = "Lawful good"
 xp = 0
 hp_max = 28
 inspiration = 0  # integer inspiration value
+tmp_hp = 11
 
 # Ability Scores
 strength = 14
